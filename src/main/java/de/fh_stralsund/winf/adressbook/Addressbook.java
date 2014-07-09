@@ -1,4 +1,4 @@
-﻿package de.fh_stralsund.winf.adressbook;
+package de.fh_stralsund.winf.adressbook;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -23,8 +23,7 @@ public class Addressbook {
  
     //gibt anzahl der kontakte zurück
     public int size() {
-        return 0;
-        //return contacts.size();
+        return contacts.size();
     }
     
     //speichern der Liste
@@ -61,5 +60,6 @@ public class Addressbook {
     public ArrayList<Contact> getContactList(){
     	return contacts;
     }
-       
+    
+    
 }
