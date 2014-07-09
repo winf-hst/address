@@ -61,6 +61,5 @@ public class Addressbook {
     public ArrayList<Contact> getContactList(){
     	return contacts;
     }
-    
-    
+       
 }
