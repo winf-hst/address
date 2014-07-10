@@ -23,8 +23,8 @@ public class Addressbook {
  
     //gibt anzahl der kontakte zurück
     public int size() {
-    	return -1;
-        //return contacts.size();
+    	//return -1;
+        return contacts.size();
     }
     
     //speichern der Liste
