@@ -21,11 +21,5 @@ public class AddressbookTest extends TestCase {
 	    assertEquals("Es sollte ein Eintrag vorhanden sein.", 1,
 	                         addressBook.size());
 	}
-
-
-
-
-
-
 	
 }

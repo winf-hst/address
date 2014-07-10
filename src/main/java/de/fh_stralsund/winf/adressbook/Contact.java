@@ -15,9 +15,16 @@ public class Contact implements Serializable {
 		this.fullAddress = fullAddress;
 	}
 	
-	public Contact(String firstname, String lastName){
-		this.firstName = firstname;
+	public Contact(String firstName, String lastName){
+		this.firstName = firstName;
 		this.lastName = lastName;
+	}
+	
+	public Contact (String firstName, String lastName, String adress){
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.onlyAddress = adress;
+		this.fullAddress = firstName + " " + lastName + ", " + adress;
 	}
 	
 	public String getFirstName() {
